@@ -41,5 +41,5 @@ mysql>
 
 
 ## see also
-  [mysql to postgres proxy](https://github.com/sidorares/mysql-pg-proxy)
-  [osquery interface using PG Foreign Data Wrappers](https://github.com/shish/pgosquery)
+ - [mysql to postgres proxy](https://github.com/sidorares/mysql-pg-proxy)
+ - [osquery interface using PG Foreign Data Wrappers](https://github.com/shish/pgosquery)
