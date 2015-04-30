@@ -1,0 +1,27 @@
+{
+  "name": "mysql-osquery-proxy",
+  "version": "1.0.0",
+  "description": "mysql to osquery proxy server",
+  "main": "proxy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sidorares/mysql-osquery-proxy.git"
+  },
+  "keywords": [
+    "mysql",
+    "osquery",
+    "sql",
+    "proxy",
+    "server"
+  ],
+  "author": "Andrey Sidorov <sidorares@yandex.ru>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "mysql2": "^0.15.5",
+    "thrift": "^0.9.2"
+  }
+}

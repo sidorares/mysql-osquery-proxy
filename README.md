@@ -1,0 +1,37 @@
+mysql-osquery-proxy
+==============
+
+mysql to [osquery](https://github.com/facebook/osquery) proxy server
+
+## Installation
+
+    npm install mysql-osquery-proxy
+
+## Usage
+
+    node proxy.js mysql-listen-port pg-connect-string
+
+## Example
+
+    > node proxy.js 3307 'postgres://user:password@localhost:5432/dbname' &
+    > mysql -h 127.0.0.1 -P 3307
+
+    Welcome to the MySQL monitor.  Commands end with ; or \g.
+    Your MySQL connection id is 0
+    Server version:
+
+    Copyright (c) 2000, 2011, Oracle and/or its affiliates. All rights reserved.
+
+    Oracle is a registered trademark of Oracle Corporation and/or its
+    affiliates. Other names may be trademarks of their respective
+    owners.
+
+    Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+    mysql> SELECT * FROM pg_catalog.pg_tables limit 5;
+    5 rows in set (0.00 sec)
+
+
+## see also
+  [mysql to postgres proxy](https://github.com/sidorares/mysql-pg-proxy)
+  [osquery interface using PG Foreign Data Wrappers](https://github.com/shish/pgosquery)
