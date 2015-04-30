@@ -77,5 +77,5 @@ server.listen(process.argv[2], function(err) {
   // TODO: add server.address() in mysql2
   var address = server._server.address();
   console.log('listening on %s:%s', address.address, address.port);
-  console.log('start client as "mysql "');
+  console.log('start client as "mysql -h 127.0.0.1 -P %s"', address.port);
 });
