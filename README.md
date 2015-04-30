@@ -9,7 +9,7 @@ mysql to [osquery](https://github.com/facebook/osquery) proxy server
 
 ## Usage
 
-    node proxy.js mysql-listen-port pg-connect-string
+    node proxy.js mysql-listen-port
 
 ## Example
 
