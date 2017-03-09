@@ -4,7 +4,9 @@
   "description": "mysql to osquery proxy server",
   "main": "proxy.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -22,6 +24,8 @@
   "readmeFilename": "README.md",
   "dependencies": {
     "mysql2": "^0.15.5",
-    "thrift": "^0.9.2"
-  }
+    "thrift": "^0.9.2",
+    "snyk": "^1.25.2"
+  },
+  "snyk": true
 }
