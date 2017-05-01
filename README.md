@@ -1,6 +1,8 @@
 mysql-osquery-proxy
 ==============
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/sidorares/mysql-osquery-proxy.svg)](https://greenkeeper.io/)
+
 mysql to [osquery](https://github.com/facebook/osquery) proxy server
 
 ## Installation
